@@ -1,0 +1,17 @@
+.bg-img-1{
+    background-image: url(images/Slider/01.jpg);
+}
+.bg-img-2{
+    background-image: url(images/Slider/02.jpg);
+}
+.bg-img-3{
+    background-image: url(images/Slider/03.jpg);
+}
+.carousel-image{
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+h1{
+    font-size: px;
+}
