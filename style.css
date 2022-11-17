@@ -1,3 +1,8 @@
+
+/* common or utilites */
+
+
+
 .bg-img-1{
     background-image: url(images/Slider/01.jpg);
 }
@@ -12,6 +17,35 @@
     background-size: cover;
     background-position: center;
 }
-h1{
-    font-size: px;
+.courses {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
 }
+/*....................
+     For mobile device 
+....................*/
+@media only screen and (max-width:688px) {
+    .container {
+        width: 100%;
+    }
+    .courses {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+
+
+
+
+/* tablet device */
+@media only screen and (min-width:688px) and (max-width:992px) {
+    .container {
+        width: 100%;
+    }
+    .courses {
+        grid-template-columns: repeat(1, 1fr);
+        background-color: yellowgreen;
+    }
+
+}
+
