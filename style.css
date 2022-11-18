@@ -78,15 +78,6 @@ section{
 
 
 
-.bg-img-1{
-    background-image: url(images/Slider/01.jpg);
-}
-.bg-img-2{
-    background-image: url(images/Slider/02.jpg);
-}
-.bg-img-3{
-    background-image: url(images/Slider/03.jpg);
-}
 .carousel-image{
     height: 100vh;
     background-size: cover;
@@ -102,10 +93,16 @@ section{
 ....................*/
 @media only screen and (max-width:688px) {
     .container {
+
         width: 100%;
     }
-    .courses {
+    .courses .registers {
         grid-template-columns: repeat(1, 1fr);
+        align-items: center;
+    }
+    .card .registers{
+        justify-content: center;
+        align-items: center;
     }
 
 
@@ -120,6 +117,11 @@ section{
     .courses {
         grid-template-columns: repeat(1, 1fr);
         background-color: yellowgreen;
+        align-items: center;
+    }
+    .card{
+        justify-content: center;
+        align-items: center;
     }
 
 }

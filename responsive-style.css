@@ -3,16 +3,21 @@
         width: 100%;
     }
 
-    .players,
-    .blogs,
+    .deals,
     .courses {
         /* background-color: red; */
         grid-template-columns: repeat(1, 1fr);
+        padding: 5px;
     }
 
-    .player,
-    .blog,
+    .deals,
     .course {
+        flex-direction: column;
+    }
+    .register{
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+        align-items: center;
         flex-direction: column;
     }
 
@@ -22,11 +27,21 @@
     .container {
         width: 100%;
     }
-
-    .players,
     .courses {
         grid-template-columns: repeat(1, 1fr);
+        justify-content: center
         background-color: ;
+    }
+    .deals{
+        grid-template-rows:repeat(1, 1fr) ;
+        width:100%;  
+    }
+    .register{
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        
     }
 
 }
