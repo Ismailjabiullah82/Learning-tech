@@ -11,11 +11,15 @@ body {
 }
 .deals-rating{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    
+    grid-template-columns: repeat(3, 1fr);   
 }
+.register{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
 @media only screen and (max-width:688px){
-    .course{
+    .course, .register{
         grid-template-columns: repeat(1, 1fr);
     }
     .container{
@@ -29,7 +33,7 @@ body {
     .container{
         width: 100%;
     }
-    .course{
+    .course, .register {
         grid-template-columns: repeat(1, 1fr);
     }
     .deals-rating{
