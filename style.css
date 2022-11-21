@@ -9,50 +9,64 @@ body {
     grid-template-columns: repeat(2, 1fr);
     justify-content: space-between;
 }
-.deals-rating{
+
+.deals-rating {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);   
+    grid-template-columns: repeat(3, 1fr);
 }
-.register{
+
+.register {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
-.logo{
+
+.logo {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
 }
-.list-grop{
+
+.list-grop {
     display: grid;
     grid-template-columns: 6, 1fr;
     text-decoration: none;
 
 }
 
-@media only screen and (max-width:688px){
-    .course, .register{
+@media only screen and (max-width:688px) {
+
+    .course,
+    .register {
         grid-template-columns: repeat(1, 1fr);
     }
-    .footer{
+
+    .footer {
         display: none;
     }
-    .container{
+
+    .container {
         width: 100%;
     }
-    .deals-rating{
+
+    .deals-rating {
         grid-template-columns: repeat(1, 1fr);
     }
 }
+
 @media only screen and (min-width:688px) and (max-width:992px) {
-    .container{
+    .container {
         width: 100%;
     }
-    .footer{
+
+    .footer {
         display: none;
     }
-    .course, .register {
+
+    .course,
+    .register {
         grid-template-columns: repeat(1, 1fr);
     }
-    .deals-rating{
+
+    .deals-rating {
         grid-template-columns: repeat(2, 1fr);
     }
 }
